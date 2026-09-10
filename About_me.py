@@ -1,0 +1,10 @@
+print("My name is Devin.")
+print("I Like playing games and drawing.")
+print("So I also like making totally luck based games.")
+#Food, color
+print("My faverite color is green, then purple, then blue.")
+print("I like spaghetti.")
+player_name = input("What is your name?")
+player_action = input("Adjetive?")
+player_place = input("Place?")
+print(f"{player_name} {player_action} in {player_place}.")
