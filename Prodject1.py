@@ -1,6 +1,6 @@
 
 name = input("Pick a name")
-noun = input("pick a person or place")
+noun = input("pick a person or thing")
 job = input("pick a job")
 place = input("pick a place")
 building = input("pick a building")
