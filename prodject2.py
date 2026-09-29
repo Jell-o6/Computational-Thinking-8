@@ -32,4 +32,4 @@ elif place == "leave":
     else:
         print("You die of hunger and gain the mark of the fool. The End")
 else:
-    ("You can't decide what to do so you stay in bed in think. During that time you fall asleep and gain the marks of lazyness and indeciviness. Sweet dreams.")
+    ("You can't decide what to do so you stay in bed in think. During that time you fall asleep and gain the marks of the lazy and the indecive. Sweet dreams.")
