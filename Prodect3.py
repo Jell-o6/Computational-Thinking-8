@@ -38,14 +38,14 @@ if path =="short":
     cha -=1
     str +=1
     Dex +=2
-if path =="long":
+elif path =="long":
     wis += 1
 #Yummy berries
 lost = ("Your charture is lost they see some beries eat them.")
 if lost == "yes":
     wis -=2
     con +=1
-if lost == "no":
+elif lost == "no":
     con -=2
     wis +=1
 #Always trust strangers
@@ -54,9 +54,9 @@ if Seller == "take deal":
     wis -=2
     money -=5
     cha +=2
-if Seller == "leave":
+elif Seller == "leave":
     wis +=1
-if Seller == "negoticate":
+elif Seller == "negoticate":
     cha += 2
     money -=3
 #Don't loose your honor
@@ -64,7 +64,7 @@ Bank = input("Your charture is broke you can break into a bank do it or not or b
 if Bank == "do it":
     Dex +=2
     money +=3
-if Bank == "not" or Bank == "beg":
+elif Bank == "not" or Bank == "beg":
     wis += 1
     con -=2
     if Bank == "beg":
@@ -77,29 +77,29 @@ if wheel== "no":
     con-=3
     cha-=2
     money = 0
-if wheel== "yes":
+elif wheel== "yes":
     if spin== "high":
         Dex+=2
         str+=2
         wis+=2
         cha+=2
         con+=2
-    if spin== "low":
+    elif spin== "low":
         Dex+=1
         str+=1
         wis+=1
         cha+=1
         con+=1
-    if spin== "mid":
+    elif spin== "mid":
         money = 5
-    if spin== "neg sm":
+    elif spin== "neg sm":
         Dex-=2
         str-=1
         wis-=2
         cha-=1
         con-=2
         money =-1
-    if spin== "neg big":
+    elif spin== "neg big":
         Dex-=2
         str-=3
         wis-=2
